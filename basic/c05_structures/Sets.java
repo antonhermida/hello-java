@@ -61,7 +61,7 @@ public class Sets {
         names.addAll(countries);
         System.out.println(names);
 
-        names.removeAll(countries);
+        // names.removeAll(countries);
         System.out.println(names);
 
         names.retainAll(countries);

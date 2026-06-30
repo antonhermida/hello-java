@@ -12,9 +12,9 @@ public class AccessModifiers {
         // Encapsulamiento
 
         // - Modificadores de acceso
-        // public
-        // private
-        // protected
+        // public: dentro de cualquier clase
+        // private: dentro de la misma clase
+        // protected: dentro del mismo paquete y subclases
         // (default)
 
         // getters

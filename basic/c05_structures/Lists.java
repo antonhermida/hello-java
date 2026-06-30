@@ -28,14 +28,14 @@ public class Lists {
 
         // Acceso
 
-        System.out.println(names.getFirst());
+        // System.out.println(names.getFirst());
         System.out.println(names.get(1));
-        System.out.println(names.getLast());
+        // System.out.println(names.getLast());
 
         // Modificación
 
         names.set(2, "mouredev@gmail.com");
-        System.out.println(names.getLast());
+        System.out.println(names.get(2));
 
         // Eliminación
 

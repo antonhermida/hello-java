@@ -19,15 +19,17 @@ public class VariablesAndConstants {
 
         // name = 37; Error (no podemos cambiar el tipo de dato)
 
-        int age = 37;
-        System.out.println(age);
+        final int AGE = 37;
+        System.out.println(AGE);
+
+        // AGE = 38; Error (no podemos cambiar el valor de una constante)
 
         var email = "mouredev@gmail.com";
         System.out.println(email);
 
         var year = 2025;
         System.out.println(year);
-
+        
         // Constantes
 
         final String EMAIL = "mouredev@gmail.com";

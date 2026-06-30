@@ -10,23 +10,30 @@ public class BeginnerExercises {
     public static void main(String[] args) {
 
         // 1. Declara una variable de tipo String y asígnale tu nombre.
-
+        String name = "Anton Hermida";
         // 2. Crea una variable de tipo int y asígnale tu edad.
-
+        int edad  = 25;
         // 3. Crea una variable double con tu altura en metros.
-
+        double altura = 1.75;
         // 4. Declara una variable de tipo boolean que indique si te gusta programar.
-
+        boolean meGusta = true;
         // 5. Declara una constante con tu email.
-
+        final String EMAIL = "antonhc10@gmail.com";
         // 6. Crea una variable de tipo char y guárdale tu inicial.
-
+        char inicial = 'A';
         // 7. Declara una variable de tipo String con tu localidad, y a continuación cambia su valor y vuelve a imprimirla.
-
+        String localidad = "Gondomar";
+        localidad = "Nigran";
+        System.out.println(localidad);
         // 8. Crea una variable int llamada a, otra b, e imprime la suma de ambas.
-
+        int a = 5;
+        int b = 10;
+        System.out.println(a+b);
         // 9. Imprime el tipo de dos variables creadas anteriormente.
-
+        System.out.println("Tipo de 'name': " + name.getClass().getSimpleName());
         // 10. Intenta declarar una variable sin inicializarla y luego asígnale un valor antes de imprimirla.
+        String ciudad;
+        ciudad = "Vigo";
+        System.out.println(ciudad);
     }
 }
